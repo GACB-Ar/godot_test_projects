@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://pwk37gohvo56"]
+
+[ext_resource type="Script" uid="uid://ybtv8a8utnt0" path="res://Scripts/greetings_label.gd" id="1_jjgbg"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GreetingsLabel" type="Label" parent="."]
+offset_right = 95.0
+offset_bottom = 23.0
+text = "Hello World!"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_jjgbg")
